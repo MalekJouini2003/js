@@ -3,32 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dice</title>
-    <link rel = "stylesheet" href = "styledice.css">
+    <title>checkbox</title>
+    <link rel = "stylesheet" href ="style.css">
 </head>
-<body>
-
-    <div id = "container">
-        <h1 id ="title">Dice Roller</h1><br>
-        <label id ="label"># of dice: </label>
-        <input type = "number" id ="num_dice" value ="1" min = "1">
-        <button onclick = roll_dice() id ="roll_dice">Roll Dice</button><br><br>
-        <p id ="result"> put and roll</p>
-        <div id ="diceimages"></div>
-        <div id="result2"></div>
-
+<body><br>
+    <input type ="checkbox" id="Mycheckbox">
+    <label for ="Mycheckbox">Subscribe</label><br>
+    <input type="radio" id = "visabtn" name ="card">
+    <label for ="Myradio"> Visa </label><br>
+    <input type="radio" id = "MasterCardbtn" name ="card">
+    <label for ="MasterCard"> MasterCard </label><br>
+    <input type="radio" id = "PayPalbtn" name ="card">
+    <label for ="PayPal"> PayPal </label><br><br>
 
 
-    </div>
+    <button id="mybutton">submit</button>
 
+    <p id="subresult"></p>
+    <p id="cardresult"></p>
 
-
-
-
-
-
-
-    <script src="indexdice.js"></script>
     
+
+
+
+
+
+    <script src = "index.js"></script>
 </body>
 </html>
