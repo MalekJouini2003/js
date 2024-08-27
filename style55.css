@@ -1,0 +1,51 @@
+body{
+    font-size: 35px;
+}
+
+#title{
+    font-style: italic;
+    text-align: center;
+    color: rgb(126, 7, 7)
+}
+#label{
+    font-family: "Dancing Script", cursive;
+    font-size :26px;
+}
+#numbertext{
+    font-size: 25px;
+}
+
+#submit{
+    font-size: 25px;
+    background-color:rgb(99, 95, 95);
+    color:white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition : background-color 0.3s;
+    
+
+
+}
+
+input{
+    font-family : "Geist Mono", monospace;
+    font-size : 1.75rem;
+    padding : 1rem 2rem;
+    padding-right: 4rem;
+    letter-spacing: 0.2ch;
+    border-radius : 6pc;
+    color : var(--color-alpha);
+    border-color: red;
+    border-style: solid;
+
+ 
+    
+
+}
+
+
+
+#submit:hover{
+    background-color:red;
+}
